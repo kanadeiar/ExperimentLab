@@ -1,0 +1,10 @@
+@Uqs.Weather_HostAddress = https://localhost:7263
+
+GET {{Uqs.Weather_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Uqs.Weather_HostAddress}}/sample
+
+###

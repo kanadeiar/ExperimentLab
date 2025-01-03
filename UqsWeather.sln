@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E52AF669-C4DB-42C2-A48D-F6A207C67F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E0D08CE5-2804-4168-9176-73DFE7153BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uqs.Weather", "src\Uqs.Weather\Uqs.Weather.csproj", "{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uqs.Weather.Tests.Unit", "tests\Uqs.Weather.Tests.Unit\Uqs.Weather.Tests.Unit.csproj", "{39B366BE-8737-42AD-9936-E7A8B24A03FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B366BE-8737-42AD-9936-E7A8B24A03FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B366BE-8737-42AD-9936-E7A8B24A03FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B366BE-8737-42AD-9936-E7A8B24A03FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B366BE-8737-42AD-9936-E7A8B24A03FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A7E1271-CED0-4D4D-94BE-1E5B7A4033D7} = {E52AF669-C4DB-42C2-A48D-F6A207C67F53}
+		{39B366BE-8737-42AD-9936-E7A8B24A03FD} = {E0D08CE5-2804-4168-9176-73DFE7153BD5}
+	EndGlobalSection
+EndGlobal
